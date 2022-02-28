@@ -26,9 +26,13 @@ const Header = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/">
-            Youtube
-          </Link>
+          <a
+            className="nav-link"
+            href="https://www.youtube.com/channel/UCdw0N6s405ClFMnfK2luZ5g"
+            target="/"
+          >
+            YouTube
+          </a>
         </li>
       </ul>
     </header>
