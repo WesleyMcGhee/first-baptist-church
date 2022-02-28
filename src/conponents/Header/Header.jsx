@@ -1,10 +1,36 @@
 import "./Header.css";
-import logo from "../../photos/fbclogo.PNG";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <img src={logo} />
+      <h1 className="logo">First Baptist Church</h1>
+      <ul className="nav-bar">
+        <li className="nav-item">
+          <Link className="nav-link" to="/">
+            Home
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/">
+            About
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/">
+            Media
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/">
+            Ministries
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/">
+            Youtube
+          </Link>
+        </li>
+      </ul>
     </header>
   );
 };
