@@ -1,0 +1,40 @@
+body {
+  background-color: #ddd;
+}
+.content-header {
+  width: 100%;
+}
+.content-div {
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5vh 3vw 10vh 3vw;
+}
+.welcome-header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 100;
+}
+.content-img {
+  margin-top: 5vh;
+  display: flex;
+}
+.church-img {
+  margin-left: 3vw;
+}
+.content-paragraph {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.content-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.table {
+  border: 1px solid black;
+}
+.table-header-box {
+  border: 1px solid black;
+  background-color: #ddd;
+}
